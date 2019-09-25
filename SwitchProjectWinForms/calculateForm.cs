@@ -23,6 +23,7 @@ namespace SwitchProjectWinForms
         private void CalculateForm_Load(object sender, EventArgs e)
         {
             this.mathBox.TextChanged += UpdateText;
+            this.mathBox.Text = "15/3+(85*0.25-8*(-5)+3/2)";
         }
         static bool isError = false;
         private void UpdateText(object sender, EventArgs e)
